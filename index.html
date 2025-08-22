@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gifted | Oscar Dev</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="https://files.catbox.moe/p2z8qw.jpg" alt="Logo" class="logo" />
+    <div class="brand">Oscar Dev</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav class="menu" id="menu">
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="payment.html">Payment</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <h1>Welcome to Oscar Dev</h1>
+    <p>I'm Oscar, a passionate developer. Explore my projects and services.</p>
+  </main>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
